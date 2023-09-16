@@ -9,11 +9,7 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.appbar.MaterialToolbar
 
 
-/**
- * A simple [Fragment] subclass.
- * Use the [OrderFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
+
 class OrderFragment : Fragment() {
 
 
