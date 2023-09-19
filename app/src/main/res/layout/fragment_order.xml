@@ -15,21 +15,26 @@
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:contentScrim="?attr/colorPrimary">
+            app:collapsedTitleTextColor="#F1E9E9"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleTextColor="#ECE3E3"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/restaurant"
-                app:layout_collapseMode="parallax"/>
+                app:layout_collapseMode="parallax" />
 
             <com.google.android.material.appbar.MaterialToolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:layout_collapseMode="pin" />
+                android:foregroundTint="#EFE8E8"
+                app:layout_collapseMode="pin"
+                app:subtitleTextColor="#EFE6E6"
+                app:titleTextColor="#F4EFEF" />
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
